@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29021.104
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9891426F-B1C0-4E91-B606-F3CA7322ED1F}"
 EndProject
@@ -10,17 +10,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Identity", "src\Identity\Identity.xproj", "{0520FE81-B1D9-451A-8955-F772E0338479}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identity", "src\Identity\Identity.csproj", "{0520FE81-B1D9-451A-8955-F772E0338479}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "IdentityEmptyProject", "src\IdentityEmptyProject\IdentityEmptyProject.xproj", "{8FA3528A-D85F-422E-BDF0-C752ECA3E5F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityEmptyProject", "src\IdentityEmptyProject\IdentityEmptyProject.csproj", "{8FA3528A-D85F-422E-BDF0-C752ECA3E5F6}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CookieAuthentication", "src\CookieAuthentication\CookieAuthentication.xproj", "{61BCF9C0-B8C8-41E9-9C2A-97A7EBB39239}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CookieAuthentication", "src\CookieAuthentication\CookieAuthentication.csproj", "{61BCF9C0-B8C8-41E9-9C2A-97A7EBB39239}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ExternalAuthentication", "ExternalAuthentication\ExternalAuthentication.xproj", "{B044A7C7-C356-45CB-A31F-566733DD0CE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExternalAuthentication", "ExternalAuthentication\ExternalAuthentication.csproj", "{B044A7C7-C356-45CB-A31F-566733DD0CE4}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "2FA", "src\2FA\2FA.xproj", "{9EA3C713-C89B-4D1D-937F-EBDEC5F8AABD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2FA", "src\2FA\2FA.csproj", "{9EA3C713-C89B-4D1D-937F-EBDEC5F8AABD}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "IdentityServer4Identity", "src\IdentityServer4Identity\IdentityServer4Identity.xproj", "{9DE592D5-8FAF-4DE1-B48F-7F2C8E1ED5FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer4Identity", "src\IdentityServer4Identity\IdentityServer4Identity.csproj", "{9DE592D5-8FAF-4DE1-B48F-7F2C8E1ED5FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,5 +63,8 @@ Global
 		{B044A7C7-C356-45CB-A31F-566733DD0CE4} = {9891426F-B1C0-4E91-B606-F3CA7322ED1F}
 		{9EA3C713-C89B-4D1D-937F-EBDEC5F8AABD} = {9891426F-B1C0-4E91-B606-F3CA7322ED1F}
 		{9DE592D5-8FAF-4DE1-B48F-7F2C8E1ED5FF} = {9891426F-B1C0-4E91-B606-F3CA7322ED1F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A160AFE8-E91D-4FE9-AA7E-3B908D058B5C}
 	EndGlobalSection
 EndGlobal

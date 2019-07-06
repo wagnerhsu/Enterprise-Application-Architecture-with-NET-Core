@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29021.104
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1671DB69-3578-489B-B0EE-C2177BCB6EFB}"
 EndProject
@@ -10,9 +10,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Chapter2", "src\Chapter2\Chapter2.xproj", "{472757F3-13EA-4925-BC12-5AD6DACF5B0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter2", "src\Chapter2\Chapter2.csproj", "{472757F3-13EA-4925-BC12-5AD6DACF5B0E}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Chapter2.Test", "src\Chapter2.Test\Chapter2.Test.xproj", "{51DA23AD-8A71-4B5A-B9C8-70B968F1DE6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter2.Test", "src\Chapter2.Test\Chapter2.Test.csproj", "{51DA23AD-8A71-4B5A-B9C8-70B968F1DE6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,5 +35,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{472757F3-13EA-4925-BC12-5AD6DACF5B0E} = {1671DB69-3578-489B-B0EE-C2177BCB6EFB}
 		{51DA23AD-8A71-4B5A-B9C8-70B968F1DE6A} = {1671DB69-3578-489B-B0EE-C2177BCB6EFB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09C86AD3-CFEE-4CAB-95C8-D65E1136DCC4}
 	EndGlobalSection
 EndGlobal

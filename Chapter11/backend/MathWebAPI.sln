@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29021.104
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0915C818-9C5A-4EB1-883B-1DF05BFA95FA}"
 EndProject
@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MathWebAPI", "src\MathWebAPI\MathWebAPI.xproj", "{00A8B227-5514-4440-93D7-751C93F5D57B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathWebAPI", "src\MathWebAPI\MathWebAPI.csproj", "{00A8B227-5514-4440-93D7-751C93F5D57B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,5 +28,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{00A8B227-5514-4440-93D7-751C93F5D57B} = {0915C818-9C5A-4EB1-883B-1DF05BFA95FA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {516E733B-46FB-463E-BD64-EF92F45155A3}
 	EndGlobalSection
 EndGlobal
