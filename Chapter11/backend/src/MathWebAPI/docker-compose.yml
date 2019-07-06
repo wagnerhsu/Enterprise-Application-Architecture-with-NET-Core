@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  mathwebapi:
+    image: user/mathwebapi${TAG}
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80"
